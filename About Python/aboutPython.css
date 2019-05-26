@@ -1,0 +1,243 @@
+body *{
+    margin: 0px auto;
+}
+
+.containter{
+    min-height: 1500px;
+    width: 970px;
+}
+.upperContent{
+    height: 430px;
+    width: 970px;
+    margin: 0px auto;
+    background-color: #265175;
+}
+.top{
+    height: 120px;
+    width: 970px;
+    margin: 0px auto;
+    background-color: #265175;
+}
+.top img{
+    width: 400px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 40px;
+}
+div.top .right{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.top p{
+    margin-left: 80px;
+    color: white;
+}
+.top p a{
+    color: goldenrod;
+}
+.top p span{
+    color: black;
+}
+.searchBox{
+    width: 285px;
+    height: 53px;
+    margin-top: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #444444;
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px black;
+}
+div.searchBox form input{
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    vertical-align: bottom;
+}
+div.searchBox button{
+    height: 31px;
+    width: 40px;
+    vertical-align: center;
+    text-align: center;
+}
+.menu{
+    width: 80%;
+    height: 40px;
+    padding: 0px 30px;
+    position: relative;
+    margin-left:100px;
+    background-color: #487eab;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px black;
+}
+div.menu ul li{
+    list-style: none;
+    display: inline-block;
+    font: 20px/40px Arial;
+    color: white;
+
+}
+div.menu ul:after{
+    display:inline-block;
+    width:100%;
+    content:'';
+}
+.main{
+    width: 980px;
+    height: 220px;
+    margin: 0px auto;
+}
+.left{
+    width: 350px;
+    height: 200px;
+    vertical-align: top;
+    margin-left: 20px;
+    padding-top: 10px;
+    display: inline-block;
+}
+div.left ul li{
+    list-style: none;
+    font: 15px Arial;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+div.left ul li span{
+    font: 10px Arial;
+    color: goldenrod;
+}
+a:visited{
+    color: white;
+}
+div.main div.right{
+    width: 560px;
+    height: 200px;
+    padding: 15px;
+    margin-left: px;
+    font: 13px Arial;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+div.main div.right ul li{
+    margin-top: 5px;
+    font: 20px Arial;
+    list-style: none;
+    color: #ffd343;
+}
+.sig{
+    margin-top: 10px;
+    margin-left: 40px;
+    font: 15px Arial;
+    text-align: center;
+}
+.middleContent{
+    height: 220px;
+    width: 970px;
+    margin: 0px auto;
+    background-color: white;
+}
+.started{
+    vertical-align: top;
+    padding-top: 10px;
+    height: 200px;
+    width: 400px;
+    margin-left: 100px;
+    display: inline-block;
+    text-align: center;
+}
+.started p{
+    margin: 10px 25px;
+    font: 12px Arial;
+    color: black;
+}
+.started ul{
+    width: 250px;
+}
+.started ul li a{
+    color: #75a8d3;
+}
+.started ul li a:visited{
+    color: #75a8d3;
+}
+.started li{
+    margin: 10px 25px;
+    font: 12px Arial;
+    color: black;
+    list-style-type: square;
+}
+.line{
+    text-align: center;
+    height: 5px;
+    width: 400px;
+    background-color: #75a8d3;
+}
+.applications{
+    vertical-align: top;
+    padding-top: 10px;
+    height: 200px;
+    width: 400px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.applications p{
+    margin: 10px 25px;
+    font: 12px Arial;
+    color: black;
+}
+.applications p a{
+    color: #75a8d3;
+}
+.applications p a:visited{
+    color: #75a8d3;
+}
+.applications ul{
+    width: 250px;
+}
+.applications li{
+    margin: 10px 25px;
+    font: 12px Arial;
+    color: black;
+    list-style-type: square;
+}
+.applications li span{
+    color: #75a8d3;
+}
+h2{
+    margin-top:10px;
+    text-align: center;
+    font: 15px Arial;
+    font-weight: bold;
+    color: black;
+}
+.lowerContent{
+    height: 100px;
+    width: 970px;
+    margin: 0px auto;
+    background-image: linear-gradient(#265176, #3775aa);
+}
+.lowerContent ul{
+    width: 700px;
+    margin-left: 120px;
+}
+.lowerContent ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    font: 18px Arial;
+    color: #89bae3;
+}
+.lowerContent p{
+    text-align: center;
+    margin-top: 10px;
+    font: 8px Arial;
+    color: #89bae3;
+}
